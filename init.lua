@@ -1,4 +1,4 @@
-vim.g.mapleader = " "
-vim.g.maplocalleader = "\\"
+require("global")
+require("options")
+require("keybindings")
 require("setup_lazy")
-require("general")
