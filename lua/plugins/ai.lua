@@ -1,0 +1,59 @@
+return {}
+-- return {
+--   {
+--     'olimorris/codecompanion.nvim',
+--     version = '18.6.0',
+--     keys = {
+--       { '<leader>caa', '<cmd>CodeCompanionActions<cr>', mode = {'n', 'v'}, desc = 'Action Palette' },
+--       { '<leader>cac', '<cmd>CodeCompanionChat<cr>', mode = {'n', 'v'}, desc = 'New Chat' },
+--       { '<leader>caA', '<cmd>CodeCompanionAdd<cr>', mode = 'v', desc = 'Add code' },
+--       { '<leader>cai', '<cmd>CodeCompanion<cr>', mode = 'n', desc = 'Inline prompt' },
+--       { '<leader>cat', '<cmd>CodeCompanionChat Toggle<cr>', mode = 'n', desc = 'Toggle Chat' },
+--     },
+--     dependencies = {
+--       'nvim-lua/plenary.nvim',
+--       'nvim-treesitter/nvim-treesitter',
+--     },
+--     opts = {
+--       adapters = {
+--         acp = {
+--           opencode = 'opencode',
+--           opts = {
+--             show_defaults = false
+--           },
+--         },
+--       },
+--       strategies = {
+--         keymaps = {
+--           close = { modes = { n = 'q', i = '<C-e' } },
+--           stop = { modes = { n = '<C-c>' } },
+--         },
+--         adapter = 'opencode',
+--         roles = {
+--           user = 'Chef'
+--         }
+--       }
+--     },
+--     display = {
+--       enabled = true,
+--       diff = {
+--         provider = "mini_diff", d
+--       }
+--     },
+--     interactions = {
+--       chat = {
+--         keymaps = {
+--           send = {
+--             modes = { n = "<C-s>", i = "<C-s>" },
+--             opts = {},
+--           },
+--           close = {
+--
+--             modes = { n = "<C-c>", i = "<C-c"},
+--             opts = {}
+--           }
+--         }
+--       }
+--     }
+--   }
+-- }
